@@ -46,6 +46,11 @@
     "jest": "^23.6.0",
     "jest-transform-graphql": "^2.1.0"
   },
+  "prettier": {
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "arrowParens": "always"
+  },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
     "testPathIgnorePatterns": [
